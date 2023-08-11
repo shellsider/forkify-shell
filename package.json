@@ -1,0 +1,31 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "default": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-transform-private-property-in-object": "^7.22.5",
+    "@parcel/transformer-sass": "^2.9.3",
+    "buffer": "^6.0.3",
+    "events": "^3.3.0",
+    "parcel": "^2.9.3",
+    "process": "^0.11.10",
+    "sass": "^1.65.1",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.5"
+  },
+  "dependencies": {
+    "core-js": "^3.32.0",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.14.0"
+  }
+}
